@@ -53,3 +53,4 @@ logging.info(f'O resultado da multiplicação de 10 por 2 é {mul_resultado}')
 div_resultado = divisao(10,0)
 logging.info(f'O resultado da divisão de 10 por 2 é {div_resultado}')
 
+
