@@ -50,8 +50,51 @@ print(f'Retornando o dia da semana para a data especificada obs:o numero zero é
 
 print(f'Retorna o nome abreviado do dia da semana, o argumento é o tamanho da abreviação{weekheader(3)}')
 
+#Pegando somente a data
+print(f'Retorna o apenas a data {data.date()}')
+
+ano = timedelta(days=365)
+outro_ano = timedelta(weeks=40,hours=23,minutes=50,seconds=600)
+print(ano)
+print(f'Calculando o numero de dias : {outro_ano}')
+print(f'Total de segundos durante um ano : {ano.total_seconds()}')
+print(f'Multiplicando os dias :{ano * 10}')
+
+#Pegando a data atual
+print(datetime.today())
 
 
+print(data.year)
+
+#Pegando o mes
+print(data.month)
+
+print(data.day)
+
+print(f'{data.hour} horas')
+
+print(f'{data.minute} minutos')
+
+print(f'{data.second} segundos ')
+
+print(f'{data.microsecond} microsegundos ')
+
+#Substuindo valores na data, é possível trocar mais de uma coisa ao mesmo tempo
+print(f'Trocando somente o dia da data armazenada : {data.replace(day=12)}')
+print(f'Trocando somente o ano da data armazenada : {data.replace(year=2025)}')
+print(f'Trocando somente o mes da data armazenada : {data.replace(month=12)}')
+
+#Pegando dia da semana
+diasSemana=('Segunda','Terça','Quarta','Quinta','Sexta','Sabado')
+print(diasSemana[data.weekday()])
+
+#Data por extenso
+print(f'Data por extenso : {data.ctime()}')
+
+print(data.strftime("Hoje é %A, dia %d de %B de %Y"))
+
+
+print(datetime.now())
 
 
 
