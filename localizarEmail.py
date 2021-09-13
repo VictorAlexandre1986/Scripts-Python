@@ -1,7 +1,7 @@
 from imap_tools import MailBox, AND
 
 usuario = 'teste@gmail.com'
-senha = '123'
+senha = '   123'
 
 meu_email = MailBox('imap.gmail.com').login(usuario,senha)
 
