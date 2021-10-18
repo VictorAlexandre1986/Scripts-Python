@@ -1,5 +1,5 @@
 #pip install python-barcode
-
+#pip install pillow
 from barcode import EAN13
 from barcode.writer import ImageWriter
 
