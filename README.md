@@ -2,4 +2,4 @@
 
 Para ativar o ambiente virtual
 
-## digite : .\.Aprendendo\Scripts\Activate.ps1
+## digite : .\.venv\Scripts\Activate.ps1
